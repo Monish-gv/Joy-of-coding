@@ -10,12 +10,14 @@ int main()
     if(books<=10000){
         printf("No discount!!!\nthe total cost is:%ld",cost);
     }
-    if(books>10000 && books<=15000){
+    if(books>10000 && books<=15000)
+    {
         x=cost-(cost*0.1);
         printf("Hey!! you got 10%% discount\n");
         printf("the total cost is:Rs %ld",x);
     }
-    if(books>15000 && books<=20000){
+    if(books>15000 && books<=20000)
+    {
         y=cost-(cost*(0.2));
         printf("Hey!! you got 20%% discount");
         printf("the total cost is:%ld",y);
